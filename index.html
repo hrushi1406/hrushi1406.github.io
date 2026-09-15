@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio and engineering log.">
+  <title>Your Name &mdash; Systems &amp; Software</title>
+
+  <!-- Google Fonts: IBM Plex Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #0e1116;
+      --text: #c9d1d9;
+      --text-bright: #f0f6fc;
+      --muted: #8b949e;
+      --border: #21262d;
+      --accent: #58a6ff;
+      --accent-hover: #79c0ff;
+      --tag-bg: #161b22;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      background-color: var(--bg);
+      color: var(--text);
+    }
+
+    body {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 14px;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      max-width: 70ch;
+      margin: 0 auto;
+      padding: 4.5rem 1.5rem 6rem;
+    }
+
+    /* Links */
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      transition: color 0.15s ease;
+    }
+
+    a:hover {
+      color: var(--accent-hover);
+      text-decoration: underline;
+    }
+
+    /* Typography */
+    h1 {
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: var(--text-bright);
+      margin-bottom: 0.25rem;
+    }
+
+    h2 {
+      font-size: 0.85rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      margin-top: 3.5rem;
+      margin-bottom: 1.25rem;
+      padding-bottom: 0.35rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    p {
+      margin-bottom: 1rem;
+    }
+
+    .bio {
+      color: var(--text);
+      margin-bottom: 1rem;
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+
+    .meta a {
+      color: var(--muted);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    .meta a:hover {
+      color: var(--accent);
+    }
+
+    /* Project Entries */
+    .project-entry {
+      margin-bottom: 2rem;
+    }
+
+    .entry-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 0.25rem;
+    }
+
+    .entry-title {
+      font-weight: 600;
+      color: var(--text-bright);
+    }
+
+    .entry-tags {
+      display: inline-block;
+      font-size: 0.75rem;
+      color: var(--muted);
+      background: var(--tag-bg);
+      padding: 0.1rem 0.4rem;
+      border-radius: 3px;
+      margin-bottom: 0.5rem;
+    }
+
+    .entry-desc {
+      color: var(--text);
+      font-size: 0.9rem;
+      line-height: 1.6;
+    }
+
+    /* Writing Section */
+    .writing-list {
+      list-style: none;
+    }
+
+    .writing-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      padding: 0.4rem 0;
+      border-bottom: 1px dashed var(--border);
+    }
+
+    .writing-item:last-child {
+      border-bottom: none;
+    }
+
+    .writing-date {
+      font-size: 0.8rem;
+      color: var(--muted);
+      white-space: nowrap;
+      margin-left: 1rem;
+    }
+
+    /* Footer */
+    footer {
+      margin-top: 5rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.8rem;
+      color: var(--muted);
+      display: flex;
+      justify-content: space-between;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 2.5rem 1.25rem 4rem;
+      }
+      .entry-header {
+        flex-direction: column;
+      }
+      .writing-item {
+        flex-direction: column;
+        gap: 0.15rem;
+      }
+      .writing-date {
+        margin-left: 0;
+      }
+      footer {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Your Name</h1>
+    <p class="bio">
+      Undergraduate student focusing on low-level systems programming, cache-aware algorithm design, and high-performance computing.
+    </p>
+    <div class="meta">
+      <a href="https://github.com/yourhandle" target="_blank" rel="noopener">github</a> &bull;
+      <a href="https://linkedin.com/in/yourhandle" target="_blank" rel="noopener">linkedin</a> &bull;
+      <a href="mailto:your.email@example.com">email</a> &bull;
+      <a href="./resume.pdf" target="_blank">resume.pdf</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Selected Projects -->
+    <section>
+      <h2>Selected Projects</h2>
+
+      <div class="project-entry">
+        <div class="entry-header">
+          <span class="entry-title">FastGEMM</span>
+          <span class="meta">[<a href="https://github.com/yourhandle/fast-gemm" target="_blank" rel="noopener">code</a>]</span>
+        </div>
+        <div class="entry-tags">C++20 &bull; AVX2 &bull; OpenMP &bull; CMake</div>
+        <p class="entry-desc">
+          High-performance dense matrix multiplication engine for x86 CPUs. Implements register micro-kernels, multi-level cache tiling (L1/L2/L3), and thread-level parallelism, achieving &gt;85% of peak theoretical hardware throughput.
+        </p>
+      </div>
+
+      <div class="project-entry">
+        <div class="entry-header">
+          <span class="entry-title">slabs-alloc</span>
+          <span class="meta">[<a href="https://github.com/yourhandle/slabs-alloc" target="_blank" rel="noopener">code</a>]</span>
+        </div>
+        <div class="entry-tags">C &bull; Linux Syscalls &bull; Virtual Memory</div>
+        <p class="entry-desc">
+          Custom slab-based memory allocator designed for low-fragmentation, fixed-size kernel object caches. Uses <code>mmap</code> backing pages with bitmapped free lists to enforce $O(1)$ allocation and deallocation paths.
+        </p>
+      </div>
+
+      <div class="project-entry">
+        <div class="entry-header">
+          <span class="entry-title">trace-rt</span>
+          <span class="meta">[<a href="https://github.com/yourhandle/trace-rt" target="_blank" rel="noopener">code</a>]</span>
+        </div>
+        <div class="entry-tags">C++ &bull; BVH &bull; SIMD</div>
+        <p class="entry-desc">
+          CPU path tracer featuring surface area heuristic (SAH) bounding volume hierarchies, Monte Carlo integration, and vector-accelerated ray-triangle intersection routines.
+        </p>
+      </div>
+    </section>
+
+    <!-- Technical Writing / Devlogs -->
+    <section>
+      <h2>Writing</h2>
+      <ul class="writing-list">
+        <li class="writing-item">
+          <a href="./writing/cache-blocking-gemm.html">Dissecting L1/L2 Cache Blocking Mechanics in SGEMM</a>
+          <span class="writing-date">2026-08</span>
+        </li>
+        <li class="writing-item">
+          <a href="./writing/simd-register-tiling.html">Vectorizing Inner Loops: AVX2 vs SSE4.2 Intrinsics</a>
+          <span class="writing-date">2026-06</span>
+        </li>
+        <li class="writing-item">
+          <a href="./writing/linux-virtual-memory.html">Notes on Page Tables, TLBs, and Memory Translation</a>
+          <span class="writing-date">2026-04</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Background / Education -->
+    <section>
+      <h2>Education &amp; Background</h2>
+      <div class="project-entry">
+        <div class="entry-header">
+          <span class="entry-title">B.E. in Computer Engineering</span>
+          <span class="meta">2026 &mdash; Present</span>
+        </div>
+        <p class="entry-desc">
+          Relevant coursework: Data Structures &amp; Algorithms, Computer Architecture, Operating Systems, Linear Algebra, and Discrete Mathematics.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <span>Built with HTML &amp; CSS. No JS bloat.</span>
+    <span>Updated: Sep 2026</span>
+  </footer>
+
+</body>
+</html>
