@@ -49,12 +49,12 @@
     }
 
     body {
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 14px;
-      line-height: 1.65;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 15px;
+      line-height: 1.6;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
-      max-width: 70ch;
+      max-width: 680px;
       margin: 0 auto;
       padding: 4.5rem 1.5rem 6rem;
     }
@@ -73,14 +73,15 @@
 
     /* Typography */
     h1 {
-      font-size: 1.15rem;
+      font-size: 1.35rem;
       font-weight: 600;
+      letter-spacing: -0.02em;
       color: var(--text-bright);
-      margin-bottom: 0.25rem;
+      margin-bottom: 0.35rem;
     }
 
     h2 {
-      font-size: 0.85rem;
+      font-size: 0.82rem;
       font-weight: 600;
       text-transform: uppercase;
       letter-spacing: 0.08em;
@@ -97,12 +98,16 @@
 
     .bio {
       color: var(--text);
+      font-size: 0.95rem;
+      line-height: 1.65;
       margin-bottom: 1rem;
     }
 
     .meta {
+      font-family: var(--font-mono);
       color: var(--muted);
       font-size: 0.85rem;
+      font-variant-numeric: tabular-nums;
     }
 
     .meta a {
@@ -134,17 +139,19 @@
 
     .entry-tags {
       display: inline-block;
+      font-family: var(--font-mono);
       font-size: 0.75rem;
       color: var(--muted);
       background: var(--tag-bg);
-      padding: 0.1rem 0.4rem;
-      border-radius: 3px;
+      border: 1px solid var(--border);
+      padding: 0.15rem 0.45rem;
+      border-radius: 4px;
       margin-bottom: 0.5rem;
     }
 
     .entry-desc {
       color: var(--text);
-      font-size: 0.9rem;
+      font-size: 0.92rem;
       line-height: 1.6;
     }
 
@@ -166,10 +173,12 @@
     }
 
     .writing-date {
+      font-family: var(--font-mono);
       font-size: 0.8rem;
       color: var(--muted);
       white-space: nowrap;
       margin-left: 1rem;
+      font-variant-numeric: tabular-nums;
     }
 
     /* Footer */
@@ -177,6 +186,7 @@
       margin-top: 5rem;
       padding-top: 1.5rem;
       border-top: 1px solid var(--border);
+      font-family: var(--font-mono);
       font-size: 0.8rem;
       color: var(--muted);
       display: flex;
