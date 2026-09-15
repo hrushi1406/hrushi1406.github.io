@@ -14,16 +14,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 
-  <!--google fonts: montserrat -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
-
-  <!-- Google Fonts: Inter -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-
   <style>
     :root {
       --bg: #ffffff;
@@ -34,8 +24,6 @@
       --accent: #0969da;
       --accent-hover: #0550ae;
       --tag-bg: #f6f8fa;
-      --font-sans: 'Montserrat', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
     }
 
     * {
@@ -50,12 +38,12 @@
     }
 
     body {
-      font-family: var(--font-sans);
+      font-family: 'IBM Plex Mono', monospace;
       font-size: 14px;
       line-height: 1.65;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
-      max-width: 680px;
+      max-width: 70ch;
       margin: 0 auto;
       padding: 4.5rem 1.5rem 6rem;
     }
@@ -74,16 +62,15 @@
 
     /* Typography */
     h1 {
-      font-size: 1.35rem;
-      font-weight: 700;
-      letter-spacing: -0.03em;
+      font-size: 1.15rem;
+      font-weight: 600;
       color: var(--text-bright);
-      margin-bottom: 0.35rem;
+      margin-bottom: 0.25rem;
     }
 
     h2 {
-      font-size: 0.8rem;
-      font-weight: 700;
+      font-size: 0.85rem;
+      font-weight: 600;
       text-transform: uppercase;
       letter-spacing: 0.08em;
       color: var(--muted);
@@ -99,16 +86,12 @@
 
     .bio {
       color: var(--text);
-      font-size: 0.95rem;
-      line-height: 1.7;
       margin-bottom: 1rem;
     }
 
     .meta {
-      font-family: var(--font-mono);
       color: var(--muted);
       font-size: 0.85rem;
-      font-variant-numeric: tabular-nums;
     }
 
     .meta a {
@@ -135,7 +118,6 @@
 
     .entry-title {
       font-weight: 600;
-      letter-spacing: -0.01em;
       color: var(--text-bright);
     }
 
@@ -147,7 +129,7 @@
       background: var(--tag-bg);
       border: 1px solid var(--border);
       padding: 0.15rem 0.45rem;
-      border-radius: 4px;
+      border-radius: 3px;
       margin-bottom: 0.5rem;
     }
 
@@ -175,12 +157,10 @@
     }
 
     .writing-date {
-      font-family: var(--font-mono);
       font-size: 0.8rem;
       color: var(--muted);
       white-space: nowrap;
       margin-left: 1rem;
-      font-variant-numeric: tabular-nums;
     }
 
     /* Footer */
