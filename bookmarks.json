@@ -1,0 +1,37 @@
+[
+  {
+    "category": "Articles & Essays",
+    "title": "a rough guide for going back to the moon",
+    "url": "https://research.ibm.com/blog/nasa-ibm-lunar-foundation-model",
+    "source": "research.ibm.com",
+    "note": "smth about going back to the moon"
+  },
+  {
+    "category": "Articles & Essays",
+    "title": "the ai inference revolution is here",
+    "url": "https://spectrum.ieee.org/inference-hardware-revolution",
+    "source": "spectrum.ieee.org",
+    "note": "about ai inference"
+  },
+  {
+    "category": "Articles & Essays",
+    "title": "basten github takeover",
+    "url": "https://www.strix.ai/blog/baseten-harbor-github-pat-takeover",
+    "source": "strix.ai",
+    "note": "baseten got hacked or smth"
+  },
+  {
+    "category": "Lectures, Talks and Youtube",
+    "title": "agi will be spoken, not typed",
+    "url": "https://youtu.be/18Um2VjMM_g?si=9C9Jay9y476D0Kyv",
+    "source": "AI Engineer(yt)",
+    "note": "-"
+  },
+  {
+    "category": "Papers",
+    "title": "The BLIS Framework: Refactoring High-Performance GEMM",
+    "url": "https://www.cs.utexas.edu/users/flame/pubs/blis3_ipdps14.pdf",
+    "source": "utexas.edu",
+    "note": "Analytical breakdown of multi-level cache tiling loops required to maximize float compute pipelines on modern microarchitectures."
+  }
+]
