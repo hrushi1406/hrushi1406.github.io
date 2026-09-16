@@ -3,10 +3,18 @@
     "category": "Articles & Essays",
     "title": "reverse engineering an ASIC",
     "url": "https://kjartanvandriel.github.io/asic/",
-    "source": "https://kjartanvandriel.github.io/",
+    "source": "kjartanvandriel.github.io",
     "note": "amazing solution to the jane street ASIC puzzle"
    },
 
+   {
+    "category": "Articles & Essays",
+    "title": "how to land a job at a frontier lab",
+    "url": "https://vladfeinberg.com/2026/05/10/how-to-land-a-job-at-a-frontier-lab.html",
+    "source": "vladfeinberg.com",
+    "note": "desperately need to work in a research lab"
+  },
+  
   {
     "category": "Articles & Essays",
     "title": "a rough guide for going back to the moon",
@@ -14,7 +22,7 @@
     "source": "research.ibm.com",
     "note": "smth about going back to the moon"
   },
-  
+
   {
     "category": "Articles & Essays",
     "title": "the ai inference revolution is here",
