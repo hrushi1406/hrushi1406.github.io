@@ -14,7 +14,7 @@
     "source": "vladfeinberg.com",
     "note": "desperately need to work in a research lab"
   },
-  
+
   {
     "category": "Articles & Essays",
     "title": "a rough guide for going back to the moon",
@@ -30,6 +30,7 @@
     "source": "spectrum.ieee.org",
     "note": "about ai inference"
   },
+
   {
     "category": "Articles & Essays",
     "title": "basten github takeover",
@@ -37,6 +38,7 @@
     "source": "strix.ai",
     "note": "baseten got hacked or smth"
   },
+
   {
     "category": "Lectures, Talks and Youtube",
     "title": "agi will be spoken, not typed",
@@ -44,6 +46,7 @@
     "source": "AI Engineer(yt)",
     "note": "-"
   },
+  
   {
     "category": "Papers",
     "title": "The BLIS Framework: Refactoring High-Performance GEMM",
