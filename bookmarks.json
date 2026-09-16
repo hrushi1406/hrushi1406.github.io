@@ -1,11 +1,20 @@
 [
   {
     "category": "Articles & Essays",
+    "title": "reverse engineering an ASIC",
+    "url": "https://kjartanvandriel.github.io/asic/",
+    "source": "https://kjartanvandriel.github.io/",
+    "note": "amazing solution to the jane street ASIC puzzle"
+   },
+
+  {
+    "category": "Articles & Essays",
     "title": "a rough guide for going back to the moon",
     "url": "https://research.ibm.com/blog/nasa-ibm-lunar-foundation-model",
     "source": "research.ibm.com",
     "note": "smth about going back to the moon"
   },
+  
   {
     "category": "Articles & Essays",
     "title": "the ai inference revolution is here",
