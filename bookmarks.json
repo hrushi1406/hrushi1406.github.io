@@ -38,6 +38,13 @@
     "source": "strix.ai",
     "note": "baseten got hacked or smth"
   },
+  {
+    "category":"Articles & Essays",
+    "title": "openai agents attack german wiki",
+    "url": "https://collusion.wiki/",
+    "source": "collusion.wiki",
+    "note": "another attack after HF, pretty interesting..."
+  },
 
   {
     "category": "Lectures, Talks and Youtube",
