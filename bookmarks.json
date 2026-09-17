@@ -48,9 +48,17 @@
 
   {
     "category":"Lectures, Talks and Youtube",
+    "title": "yann lecun: world models: enabling the next ai revolution",
+    "url": "https://youtu.be/72Xj8k5WQX4?si=qnLhgZsis7qgdzAh",
+    "source": "Computer vision and Geometry group, ETH Zurich",
+    "note": "LLMs definitely not giving us AGI"
+  },
+
+  {
+    "category":"Lectures, Talks and Youtube",
     "title": "search tools for agents",
     "url": "https://youtu.be/59AA5kIoqjA?si=1MgqnVcToMbhtekv",
-    "source":"AI Engineer(yt)",
+    "source":"AI Engineer",
     "note": "dead internet theory, but just for search"
   },
 
@@ -58,7 +66,7 @@
     "category": "Lectures, Talks and Youtube",
     "title": "agi will be spoken, not typed",
     "url": "https://youtu.be/18Um2VjMM_g?si=9C9Jay9y476D0Kyv",
-    "source": "AI Engineer(yt)",
+    "source": "AI Engineer",
     "note": "-"
   },
   
